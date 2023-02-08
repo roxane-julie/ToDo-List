@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>My To Do List</title>
+</head>
+
+<body>
+
+    <section id="id_task" class="section_task">
+        <h2 class="title"> My To Do List </h2>
+        <form action="">
+            <label for="task">Nouvelle tâche</label>
+            <input type="text" name="task" id="task">
+        </form>
+        <button onclick="addTask()" class="validedTask" type="submit">Ajouter la nouvelle tâche</button>
+        <div class="container">
+
+            <div class="laListe">
+                <div class="card" id="card">
+                    <h3 class="card_title"> LA LISTE</h3>
+                    <div class="buttonTask"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

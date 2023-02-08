@@ -1,0 +1,123 @@
+body {
+    box-sizing: border-box;
+    background-image: url(/asset/plant-gac6a57c4e_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 2.1em;
+    text-align: center;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+h2 {
+    margin-bottom: 3%;
+}
+
+form {
+    margin-bottom: 1%;
+    ;
+}
+
+.delBtn {
+    color: #fff;
+}
+
+.laListe {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 11px 10px 30px -4px rgba(0, 0, 0, 0.76);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container {
+    width: 50%;
+    margin-top: 2%;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    padding: 10px;
+
+}
+
+span {
+    margin-bottom: 20px;
+}
+
+/*BUTTON*/
+
+.validedTask {
+    background-color: white;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    box-shadow: inset 2px 5px 9px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.2em;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.validedTask:hover {
+    letter-spacing: 0.5em;
+    transform: translateY(-0.5em);
+    background: #171717;
+    color: white;
+}
+
+.validedTask:active {
+    letter-spacing: 0.4em;
+    transition: 0.1s all;
+    transform: translateY(-0.6em);
+    background: #171717;
+    color: white;
+}
+
+button {
+    background-color: white;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    box-shadow: inset 2px 5px 9px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.2em;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+button:hover {
+    letter-spacing: 0.5em;
+    transform: translateY(-0.5em);
+    background: #171717;
+    color: white;
+}
+
+button:active {
+    letter-spacing: 0.4em;
+    transition: 0.1s all;
+    transform: translateY(-0.6em);
+    background: #171717;
+    color: white;
+}
